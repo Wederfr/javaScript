@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+    
+var numeroInserido = prompt("Insira um número");
+
+if (numeroInserido == "0") {
+    alert("Insira outro número");
+    numeroInserido = prompt("Insira um número");
+}
+
+numeroInserido = Number(numeroInserido);
+
+if (numeroInserido >= "1" && numeroInserido <= "10") {
+    alert("Número da primeira dezena");
+} 
+
+else {
+    alert("Número maior que 10");
+}
+       
+
+
+    </script>
+
+</body>
+
+</html>
